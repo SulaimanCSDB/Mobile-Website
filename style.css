@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary: #0d6efd;
+    --dark: #21252e;
+    --body: #888;
+    --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+}
+p{
+    font-family: "Sora", system-ui;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+    font-family: "Sora", system-ui;
+}
+.nav-item a:hover{
+    color: rgb(20, 219, 20);
+}
+#logo{
+    font-weight: 600;
+    color: rgb(20, 219, 20);
+    font-size: 30px;
+}
+.search{
+height: 45px;
+outline: none;
+border: 2px solid rgb(20, 219, 20);
+background-color: transparent;
+border-radius: 20px 0px 0px 20px;
+border-right: none;
+}
+.btn1{
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0,4s;
+}
+.btn1:hover{
+    background-color: rgb(17, 177, 17);
+}
+.bi-bag-check{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    transition: all 0.4s;
+
+}
+.bi-bag-check:hover{
+    color: rgb(20, 219, 20);
+}
+.navbar-toggler{
+    font-size: 23px;
+    color: black;
+    border: none;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+.main{
+    background: url(240_F_293003722_jV7c6EYAgVu2awNe64kz08sVrEWmRN20.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    /* color: rgb(20, 219, 20); */
+    font-family: "Sora", system-ui;
+}
+.main p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+.main p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.mbtn1{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.mbtn1:hover{
+    background-color: rgb(17, 177, 17);
+}
+.mbtn2{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    background-color: transparent;
+    color: rgb(20, 219, 20);
+    border: 1px solid rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.mbtn2:hover{
+    background-color: rgb(20, 219, 20);
+    border: none;
+    color: white;
+}
+.line{
+    height: 6px;
+    width: 40%;
+    background: rgb(20, 219, 20);
+    display: inline-block;
+    
+}
+.line1{
+    height: 6px;
+    width: 32%;
+    background: rgb(20, 219, 20);
+    display: inline-block;
+}
+.p1{
+    color: white;
+}
+.p2{
+    color: white;
+}
+/* ==============about=============== */
+
+.about{
+    background: url(closeup-attractive-caucasian-man-holding-mobile-phone-smiling-camera-standing-casual-ou_1258-163891.avif)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.about h1{
+    font-size: 3rem;
+    font-family: "Sora", system-ui;
+    font-weight: bold;
+}
+.about p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+.about p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+/* =================product================ */
+.product h1{
+    font-size: 3rem;
+    font-family: "Sora", system-ui;
+    font-weight: bold;
+}
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+.product p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.star{
+    text-align: end;
+    color: orange;
+}
+.product .card{
+    border: none;
+    border-radius:0;
+    cursor: pointer;
+}
+.product .card-body{
+    border: 1px dashed rgb(190, 185, 185);
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+.btnc{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background-color: transparent;
+    border-radius: 50px;
+}
+/* ===========store============ */
+.store h1{
+    font-size: 3rem;
+    font-family: "Sora", system-ui;
+    font-weight: bold;
+}
+.store p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+.store p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.pre1{
+    color: rgb(161, 162, 162);
+}
+.store i{
+    font-size: 45px;
+}
+.store .card{
+    border: none;
+    border-radius: 0;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.store .card:hover{
+    background-color: rgb(20, 219, 20);
+    color: white;
+}
+.store .card:hover .pre1{
+    color: white;
+}
+/* ==========Contact========== */
+form input.form-control {
+    height: 56px;
+}
+
+form .form-control {
+    border: transparent;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.02) ;
+}
+
+.btn {
+    padding: 14px 18px;
+    border-width:2px;
+    border-radius: 0;
+}
+/* ================Footer========== */
+.footer-top {
+    padding-bottom: 90px;
+    padding: 90px;
+    background-color: var(--dark);
+}
+.footer-top a {
+    color: var(--body);
+}
+
+.footer-top a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    background-color: #242932;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(62, 211, 62);
+    border-radius: 100px;
+    border: 2px solid rgb(62, 211, 62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-left: 5px;
+    transition: all 0.4s ease;
+
+}
+
+.social-icons a:hover {
+    color: rgb(20, 219, 20);
+    background-color:transparent ;
+    border-color: rgb(20, 219, 20);
+
+}
+.list-unstyled a{
+    font-weight: 900;
+    transition: all 0.4s;
+}
+.btnl{
+    background-color: rgb(62, 211, 62);
+    padding: 14px 18px;
+    border-radius: 0;
+    border: none;
+    transition: all 0.4s;
+}
+.btnl:hover{
+    background-color: rgb(17, 177, 17);
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.pf1 {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+/* .t1{
+    color: rgb(62, 211, 62);
+} */
